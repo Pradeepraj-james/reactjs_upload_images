@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const ProfilePage = ({ match }) => {
+const ProfilePage = ({match}) => {
     const [user, setUser] = useState(null);
 
     // Sending request to Server
